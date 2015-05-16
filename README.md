@@ -1,1 +1,1 @@
-Hello There
+A responsive portfolio that showcases all of my projects that I have worked on.
