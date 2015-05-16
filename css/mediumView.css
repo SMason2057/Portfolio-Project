@@ -1,0 +1,42 @@
+@media screen and (min-width: 700px) and (max-width: 900px)
+{
+	.image_holder
+	{
+		width: 100%;
+	}
+	.nav_list
+	{
+		font-size: .9em;
+	}
+	
+	.nav_list li
+	{
+		width: initial;
+		padding: 20px;
+	}
+	
+	.bio p
+	{
+		-webkit-column-count: initial;
+		-moz-column-count: initial;
+		column-count: initial;
+		font-size: 1.2em;
+	}
+	
+	.col img 
+	{
+		width: 45%;
+	}
+
+	.resources p
+	{
+		width: 80%;
+		font-size: 1.2em;
+	}
+	
+	.contact #email-text 
+	{
+	  font-size: 1.3em;
+	}
+
+}
