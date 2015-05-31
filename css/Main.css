@@ -57,13 +57,14 @@ span
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .nav_list li
 {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	display: inline-block;
+	/* float: left; */
 	width: 15%;
 	text-align: center;
 	line-height: 45px;
@@ -76,8 +77,13 @@ span
 	font-family: 'quicksand';
 	color: rgba(1, 41, 53, 0.64);
 	text-transform: uppercase;
+	display: inline-block;
 }
 
+.nav #responsive-menu
+{
+	display: none;
+}
 .nav_list a:hover
 {
 	color: rgba(255, 131, 26, 1);
@@ -175,9 +181,8 @@ section.projects
 {
 	margin: 0 auto;
 	border: 4px solid white;
-	margin-top: 100px;
-	/* margin-right: 10px;
-	margin-left: 10px; */
+	margin-top: 80px;
+	
 }
 /* End Projects*/ 
 
@@ -225,7 +230,7 @@ section.projects
 /*Contact*/
 .contact
 {
-	background-color: rgba(215, 215, 215, 0.87);
+	background-color: rgba(242, 241, 237, 1);
 	width: 100%;
 	padding-bottom: 60px;
 }

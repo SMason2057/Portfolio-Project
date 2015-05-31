@@ -1,9 +1,10 @@
-@media screen and (min-width: 700px) and (max-width: 900px)
+@media screen and (min-width: 700px) and (max-width: 950px)
 {
 	.image_holder
 	{
 		width: 100%;
 	}
+	
 	.nav_list
 	{
 		font-size: .9em;
