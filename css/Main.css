@@ -15,7 +15,8 @@ main
 
 h2
 {
-	color: rgba(255, 131, 26, 1);
+	color: rgba(155, 155, 155, 1);
+	/* color: rgb(5, 133, 178); */
 	text-align: center;
 	font-family: 'quicksand';
 	padding: 20px;
@@ -29,7 +30,7 @@ p
 
 span
 {
-	color: orangered;
+	color: dodgerblue;
 	font-weight: bold;
 }
 
@@ -83,11 +84,14 @@ span
 .nav #responsive-menu
 {
 	display: none;
+	font-size: 2em;
+	color: rgba(39, 36, 36, 1);
 }
+
 .nav_list a:hover
 {
-	color: rgba(255, 131, 26, 1);
-	border-bottom: 3px solid rgba(206, 252, 254, 1);
+	color: dodgerblue;
+	border-bottom: 3px solid rgba(39, 36, 36, 1);
 }
 
 .nav_list li:hover
@@ -101,8 +105,8 @@ span
 /* Header*/ 
 .container
 {
- 	/* background-color: rgba(206, 252, 254, 1); */
-	background-color: rgba(132, 250, 255, 1);
+ 	 background-color: rgba(39, 36, 36, 1);
+	/* background-color: rgba(132, 250, 255, 1); */
 	height: 100%;
 	padding-bottom: 100px;
 }
@@ -136,7 +140,8 @@ span
 {
 	text-align: center;
 	font-size: 2em;
-	color: rgba(1, 41, 53, 0.64);
+	/* color: rgba(1, 41, 53, 0.64); */
+	color: dodgerblue;
 	margin: 0 auto;
 }
 /* End Header*/ 
@@ -167,7 +172,8 @@ span
 /* Projects*/ 
 section.projects
 {
-	background-color: rgba(132, 250, 255, 1);
+	/* background-color: rgba(132, 250, 255, 1); */
+	background-color: rgba(33, 30, 30, 1);
 }
 
 .col 
@@ -209,12 +215,12 @@ section.projects
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center !important;
-  color: rgba(107, 249, 255, 1);
+  color: dodgerblue;
 }
 
 .resources .fa-file-text:hover
 {
-	color: rgb(0, 224, 228);
+	color: dimgrey;
 }
 
 
@@ -230,7 +236,7 @@ section.projects
 /*Contact*/
 .contact
 {
-	background-color: rgba(242, 241, 237, 1);
+	background-color: rgba(223, 223, 223, 0.66);
 	width: 100%;
 	padding-bottom: 60px;
 }
@@ -246,7 +252,7 @@ section.projects
 .contact .fa-comments
 {
 	font-size: 2em;
-	color: orangered;
+	color: dodgerblue;
 }
 
 .contact #contact-line
@@ -259,14 +265,14 @@ section.projects
 
 .contact #email-text
 {
-	color: orangered;
+	color: dodgerblue;
 	text-align: center;
 	font-size: 2em;
 }
 
 .contact a 
 {
-	color: orangered;
+	color: dodgerblue;
 }
 .contact a:hover
 {
