@@ -1,11 +1,63 @@
 @media screen and (min-width: 100px) and (max-width: 700px)
 {
 	
-	.nav li
+	.nav li, .nav_list
 	{
-		font-size: .7em;
+		font-size: .9em;
 		width: initial;
+		border: 1px solid rgba(155, 155, 155, 1);
+		display:block;
+		padding: 0px;
 	}
+	
+	 .nav
+	 {
+		background-color: rgb(39, 36, 36);
+		border-bottom: 1px solid white;
+	 }
+	 
+	 .nav_list
+	 {
+		/* display: none; */
+	 }
+	
+	.nav #nav-text
+	{
+	  display: block;
+	  float: left;
+	  margin-top: 10px;
+	  font-size: .9em;
+	  text-decoration: none;
+	  color: dodgerblue;
+	  font-family: quicksand;
+	  font-weight: initial;
+	}
+	
+	.nav a#responsive-menu
+	{
+		display: inline-block;
+		width: 100%;
+		position: relative;
+		margin: 20px;
+	}
+	
+	.fa-bars
+	{
+		float: right;
+		margin-top: 5px;
+		margin-right: 45px;
+		color: #fff;
+		border: 1px solid rgba(155, 155, 155, 1);
+		border-radius: 5px;
+		padding: 7px;
+	}
+	
+	.nav a#responsive-menu:after
+	{
+		content:""; 
+		display: inline-block; 
+	}
+	
 	.image_holder
 	{
 		width: 100%;

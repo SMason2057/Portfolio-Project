@@ -5,17 +5,53 @@
 		width: 100%;
 	}
 	
-	.nav_list
+	.nav
+	 {
+		background-color: rgb(39, 36, 36);
+		border-bottom: 1px solid white;
+	 }
+	 
+	 .nav_list
+	 {
+		display: none;
+	 }
+	
+	.nav #nav-text
 	{
-		font-size: .9em;
+	  display: block;
+	  float: left;
+	  margin-top: 10px;
+	  font-size: .9em;
+	  text-decoration: none;
+	  color: dodgerblue;
+	  font-family: quicksand;
+	  font-weight: initial;
 	}
 	
-	.nav_list li
+	.nav a#responsive-menu
 	{
-		width: initial;
-		padding: 20px;
+		display: inline-block;
+		width: 100%;
+		position: relative;
+		margin: 20px;
 	}
 	
+	.fa-bars
+	{
+		float: right;
+		margin-top: 5px;
+		margin-right: 45px;
+		color: #fff;
+		border: 1px solid rgba(155, 155, 155, 1);
+		border-radius: 5px;
+		padding: 7px;
+	}
+	
+	.nav a#responsive-menu:after
+	{
+		content:""; 
+		display: inline-block; 
+	}
 	.bio p
 	{
 		-webkit-column-count: initial;
