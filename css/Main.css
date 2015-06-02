@@ -79,6 +79,7 @@ span
 	color: rgba(1, 41, 53, 0.64);
 	text-transform: uppercase;
 	display: inline-block;
+	font-weight: bold;
 }
 
 .nav #responsive-menu
@@ -106,7 +107,6 @@ span
 .container
 {
  	 background-color: rgba(39, 36, 36, 1);
-	/* background-color: rgba(132, 250, 255, 1); */
 	height: 100%;
 	padding-bottom: 100px;
 }
@@ -236,7 +236,7 @@ section.projects
 /*Contact*/
 .contact
 {
-	background-color: rgba(223, 223, 223, 0.66);
+	background-color: rgba(65, 62, 62, 1);
 	width: 100%;
 	padding-bottom: 60px;
 }

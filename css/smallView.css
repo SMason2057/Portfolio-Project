@@ -6,7 +6,7 @@
 		font-size: .9em;
 		width: initial;
 		border: 1px solid rgba(155, 155, 155, 1);
-		display:block;
+		display: block;
 		padding: 0px;
 	}
 	
@@ -15,11 +15,11 @@
 		background-color: rgb(39, 36, 36);
 		border-bottom: 1px solid white;
 	 }
-	 
-	 .nav_list
-	 {
-		/* display: none; */
-	 }
+	
+	.nav_list a
+	{
+		color: #fff;
+	}
 	
 	.nav #nav-text
 	{
@@ -39,6 +39,11 @@
 		width: 100%;
 		position: relative;
 		margin: 20px;
+	}
+	
+	.nav_list li:hover
+	{
+		width: initial;
 	}
 	
 	.fa-bars
