@@ -106,8 +106,7 @@ span
 /* Header*/ 
 .container
 {
- 	 background-color: rgba(39, 36, 36, 1);
-	height: 100%;
+ 	background-color: rgba(39, 36, 36, 1);
 	padding-bottom: 100px;
 }
 
@@ -253,6 +252,7 @@ section.projects
 {
 	font-size: 2em;
 	color: dodgerblue;
+	margin: 0px 30px;
 }
 
 .contact #contact-line
@@ -265,18 +265,38 @@ section.projects
 
 .contact #email-text
 {
-	color: dodgerblue;
+	color: white;
 	text-align: center;
 	font-size: 2em;
 }
 
 .contact a 
 {
-	color: dodgerblue;
+	color: white;
 }
 .contact a:hover
 {
-	color: #FFF;
+	color: dodgerblue;
 }
 
 /* End Contact*/
+
+/* Footer*/ 
+
+footer
+{
+	background-color:dodgerblue;
+	padding-bottom: 20px;
+}
+
+.social
+{
+	text-align: center;
+}
+
+.fa.fa-github-square, .fa.fa-trello, .fa.fa-codepen
+{
+	font-size: 2em;
+	margin: 20px 50px 0px 50px;
+	color: #fff;
+}	

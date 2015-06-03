@@ -134,7 +134,7 @@
 	
 	.contact #contact-line 
 	{
-		font-size: 2em;
+		font-size: 1.8em;
 		color: #FFF;
 		margin: 0 auto;
 		text-shadow: 1px 1px #FFF;
@@ -145,5 +145,11 @@
 		font-size: 1.1em;
 	}
 	
+	.fa.fa-github-square, .fa.fa-trello, .fa.fa-codepen
+{
+	font-size: 2em;
+	margin: 20px 20px 0px 20px;
+	color: #fff;
+}	
 
 }
