@@ -1,20 +1,35 @@
-@media screen and (min-width: 700px) and (max-width: 950px)
+@media screen and (min-width: 700px) and (max-width: 1000px)
 {
 	.image_holder
 	{
 		width: 100%;
 	}
 	
-	.nav
+	.nav li, .nav_list
+	{
+		font-size: .9em;
+		width: initial;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		display: block;
+		padding: 0px;
+	}
+	
+	.nav li:last-child
+	{
+		border-bottom: none;
+	}
+	
+	 .nav
 	 {
 		background-color: rgb(39, 36, 36);
 		border-bottom: 1px solid white;
 	 }
-	 
-	 .nav_list
-	 {
-		display: none;
-	 }
+	
+	.nav_list a
+	{
+		color: #fff;
+	}
 	
 	.nav #nav-text
 	{
@@ -36,6 +51,11 @@
 		margin: 20px;
 	}
 	
+	.nav_list li:hover
+	{
+		width: initial;
+	}
+	
 	.fa-bars
 	{
 		float: right;
@@ -51,6 +71,7 @@
 	{
 		content:""; 
 		display: inline-block; 
+	}
 	}
 	.bio p
 	{
