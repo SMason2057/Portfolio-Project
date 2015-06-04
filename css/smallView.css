@@ -128,13 +128,13 @@
 	.contact .fa-comments 
 	{
 		font-size: 2em;
-		margin-left: 0px;
+		margin: 0px 10px;
 	}
 	
 	
 	.contact #contact-line 
 	{
-		font-size: 1.8em;
+		font-size: 1.6em;
 		color: #FFF;
 		margin: 0 auto;
 		text-shadow: 1px 1px #FFF;
