@@ -43,7 +43,7 @@ span
 	position: fixed;
 	top: 0px;
 	z-index: 1;
-	background-color: #FFF;
+	background-color: red;
 }
 
 .nav ul
