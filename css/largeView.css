@@ -1,0 +1,7 @@
+@media screen and (min-width: 1001px) and (max-width: 1800px)
+{
+	.nav_list li 
+	{
+		width: 13%;
+	}
+}
