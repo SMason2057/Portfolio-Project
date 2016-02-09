@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative|Cinzel|Quicksand|Josefin+Slab);
+
 body, html
 {
 	width: 100%;
@@ -38,12 +40,14 @@ span
 .nav 
 {
 	width: 100%;
+	padding-bottom: 5px;
 	margin: 0 auto;
 	text-align: center;
 	position: fixed;
 	top: 0px;
 	z-index: 1;
-	background-color: #FFF;
+	background-color: #272424;
+	border-bottom: 2px solid white;
 }
 
 .nav ul
@@ -68,15 +72,14 @@ span
 	/* float: left; */
 	width: 15%;
 	text-align: center;
-	line-height: 45px;
-	padding: 24px;
+	padding: 20px;
 }
 
 .nav_list a 
 {
 	text-decoration: none;
 	font-family: 'quicksand';
-	color: rgba(1, 41, 53, 0.64);
+	color: #fff;
 	text-transform: uppercase;
 	display: inline-block;
 	font-weight: bold;
@@ -92,13 +95,9 @@ span
 .nav_list a:hover
 {
 	color: dodgerblue;
-	border-bottom: 3px solid rgba(39, 36, 36, 1);
+	border-bottom: 3px solid #fff;
 }
 
-.nav_list li:hover
-{
-	width: 15%;
-}
 /* End Navigation*/ 
 
 
@@ -108,6 +107,8 @@ span
 {
  	background-color: rgba(39, 36, 36, 1);
 	padding-bottom: 100px;
+	display: inline-block;
+	width: 100%;
 }
 
 .image_holder
@@ -158,28 +159,103 @@ span
 	padding: 0px 50px;
  	text-align: left;
 	line-height: 2em;
-	-webkit-column-count: 3; 
-    -moz-column-count: 3; 
-    column-count: 3;
-	-webkit-column-gap: 40px; 
-    -moz-column-gap: 40px; 
-    column-gap: 40px;
+	width: 60%;
+    margin: 0 auto;
 }
 /* End Bio*/ 
 
 
 /* Projects*/ 
-section.projects
+#lightbox
 {
-	/* background-color: rgba(132, 250, 255, 1); */
-	background-color: rgba(33, 30, 30, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(5, 5, 5, 0.85);
+}
+
+#lightbox p 
+{
+	text-align: right;
+	color: #fff;
+	margin: 100px 20px 0px 0px;
+	font-size: 1em;
+	font-family: 'Cinzel', serif;
+}
+
+#lightbox img 
+{
+    width: 400px;
+    height: 300px;
+    max-width:940px;
+    margin: 250px auto 0px auto;
+    border-radius: 3px;
+    box-shadow: 5px 7px 4px #212121;
+}
+
+#content p 
+{
+    margin: 10px auto;
+    width: 30%;
+    font-size: 1.1em;
+    font-family: quicksand;
+    color: white;
+    text-align: center;
+}
+
+#lightbox .fa 
+{
+	cursor: pointer;
+	color: white;
+	font-size: 2em;
+	margin-top: 30%;
+    width: 5%;
+    display: block;
+
+}
+
+#lightbox .fa-times-circle-o
+{
+
+}
+
+#lightbox .fa-chevron-right
+{
+	
+    float: right;
+    margin-right: 100px;
+}
+
+#lightbox .fa-chevron-left
+{
+    float: left;
+    margin-left: 100px;
+}
+
+#lightbox .fa-times-cirlce-o
+{
+	margin-top: 100px;
+    font-size: 2em;
+    color: white;
+    float: right;
+    padding-right: 50px;
 }
 
 .col 
 {
 	display: flex;
 	padding-bottom: 100px;
+	background-color: rgba(33, 30, 30, 1);
 	flex-wrap: wrap;
+}
+
+.col a 
+{
+	width: 500px;
+	margin: 0 auto;
 }
 
 .col img
@@ -187,7 +263,7 @@ section.projects
 	margin: 0 auto;
 	border: 4px solid white;
 	margin-top: 80px;
-	
+	cursor: pointer;
 }
 /* End Projects*/ 
 
@@ -198,15 +274,44 @@ section.projects
 {
 	margin: 0 auto;
 	width: 100%;
+	/*width: 49%;*/
+	display: inline-block;
 }
 
 .resources p 
 {
 	font-size: 1.1em;
-	width: 50%;
+	width: 55%;
 	margin: 0 auto;
-	line-height: 50px;
+	line-height: 2em;
+	/*padding: 50px;*/
 }
+
+/*#resources_wrapper 
+{
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#resume_file 
+{
+	width: 50%;
+    text-align: center;
+    background-color: dodgerblue;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#resume_file .fa-file-text 
+{
+	font-size: 10em;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center !important;
+	color: #fff;
+}*/
 
 .resources .fa-file-text
 {
@@ -222,7 +327,6 @@ section.projects
 	color: dimgrey;
 }
 
-
 .resources div
 {
 	margin: 0 auto;
@@ -235,7 +339,7 @@ section.projects
 /*Contact*/
 .contact
 {
-	background-color: rgba(65, 62, 62, 1);
+	background-color: #272424;
 	width: 100%;
 	padding-bottom: 60px;
 }
@@ -300,3 +404,5 @@ footer
 	margin: 20px 50px 0px 50px;
 	color: #fff;
 }	
+
+/*End Footer*/

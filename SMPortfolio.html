@@ -6,9 +6,11 @@
 	   <link rel="stylesheet" media="screen and (min-width: 200px) and (max-width: 700px)" type="text/css" href="css/smallView.css"/> 
  	   <link rel="stylesheet" media="screen and (min-width: 700px) and (max-width: 1000px)" type="text/css" href="css/mediumView.css"/>
 <!-- 	   <link rel="stylesheet" media="screen and (min-width: 1900px) and (max-width: 2000px)" type="text/css" href="css/largeView.css"/>
- --> 	   <link rel="stylesheet" href="css/font-awesome.min.css">
+ -->   <link rel="stylesheet" href="css/font-awesome.min.css">
 	   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	   <script src="js/app.js"></script>
+	   <script src="js/responsiveNav.js"></script>
+	   <script src="js/smoothScroll.js"></script>
+	   <script src="js/lightbox.js"></script>
 	   <link href="http://fonts.googleapis.com/css?family=Audiowide|Quicksand:300,400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">	   
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
 	   <title> Portfolio</title>
@@ -45,49 +47,35 @@
 		<h2 id="bio" >About Me</h2>
 		<section class="bio">
 			<p>
-				Hello there! I'm glad you've decided to stop by and visit my page. My name is 
-				Shauna Mason and I am a completely normal human being. In addition to being a 
-				human, I love video games, puzzles, coding, and most importantly cats (I like dogs
-				as well, but not as much as cats). 
-				
-				I graduated from Valencia College with an A.S. degree in Information Technology a couple of years ago and I am now 
-				currently attending the <span>University of Central Florida</span> and working 
-				towards my B.S. degree. Besides being a student, 
-				I also work at my college for the Center of Distributed Learning (CDL). 
-				My main role is to ensure that the online content for courses is accessible for students
-				who have disabilities. To find out more just skip on down to the <span> resources</span>
-				section to take a look at my <span>resume.</span> 
-				
-				Although I am majoring in IT, I have fallen into web development. I have dabbled in 
-				the world of web for a few of my courses at Valencia, but it never really caught my interest. 
-				It wasn't until I took a 
+					Hello There! My name is <span>Shauna Mason</span>. I am currently persuing a B.S. degree in Information Technology at the <span>University of Central Florida.</span> I also work as a Web Developer at the Center for Distributed Learning (CDL). While I really had little skill working with <span>HTML, CSS, Javascript</span>,etc. CDL gave me a chance to prove and challenge myself with the various projects that I was assigned, and all of the knowledge and skills that I have acquired has helped me to improve as a web developer.
 				
 			</p>
 		</section>
 		
 		<h2 id="Gallery"> Gallery </h2>
-		<section class="projects">
+		<section>
 			<div class="col">
-				<img src="https://lisaliddy.files.wordpress.com/2011/08/dsc09489.jpg?w=490&h=304">
-				<img src="http://media.guggenheim.org/content/New_York/collections/Conservation/imageless490intro.jpg">
-				<img src="http://img.technews.co/wp-content/uploads/2015/05/1431483125_589-490x305.jpg">
-				<img src="http://4.bp.blogspot.com/-zjlJm__sS-E/VF1v_MpzfPI/AAAAAAAAzYg/k_YiNLkbd7c/s1600/medicine%2Bhat%2Balberta%2Bdowntown%2Bphotography%2B(20).png">
-				<img src="https://s-media-cache-ak0.pinimg.com/736x/2e/4f/db/2e4fdb22d3b81938736fcd8a5664c113.jpg">
-				<img src="http://essentiaphotography.com/wp-content/uploads/pp/images/widget_custom_image_1_1412534137.png">
+					<img title="Pine Cones" class="lightbox_trigger" src="images/pineCone.png">
+
+					<img title="Black & White" class="lightbox_trigger" src="http://media.guggenheim.org/content/New_York/collections/Conservation/imageless490intro.jpg">
+
+					<img title="High Tech Watch" class="lightbox_trigger" src="http://img.technews.co/wp-content/uploads/2015/05/1431483125_589-490x305.jpg">
+
+					<img title="Art on Wall" class="lightbox_trigger" src="http://4.bp.blogspot.com/-zjlJm__sS-E/VF1v_MpzfPI/AAAAAAAAzYg/k_YiNLkbd7c/s1600/medicine%2Bhat%2Balberta%2Bdowntown%2Bphotography%2B(20).png">
+
+					<img title="Flowers" class="lightbox_trigger" src="https://s-media-cache-ak0.pinimg.com/736x/2e/4f/db/2e4fdb22d3b81938736fcd8a5664c113.jpg">
+
+					<img title="Letters That Spell Love" class="lightbox_trigger" src="http://essentiaphotography.com/wp-content/uploads/pp/images/widget_custom_image_1_1412534137.png">
 			</div>
 		</section>
-		
+
 		<h2 id="Resources" >Resume</h2>
 		<section class="resources">
-			<p>I don't know who you are. I don't know what you want. If you are looking for an expert in cat wrangling, 
-			   you have come to the wrong place. But, what I do have are a very particular set of skills, 
-		       skills that I have acquired over a period of time. Skills that may be valuable for a company like yours. 
-			   If you don't want to look any further, that'll be the end of it. You won't have to contact me, you won't 
-			   have to pursue me. But if you do want to continue on, and you decide to leave your contact information,
-			   I will look for you, I will find you, and I will work with you. 
+			<p>
+				I don't know who you are. I don't know what you want. If you are looking for an expert in cat wrangling, you have come to the wrong place. But, what I do have are a very particular set of skills, skills that I have acquired over a period of time. Skills that may be valuable for a company like yours. If you don't want to look any further, that'll be the end of it. You won't have to contact me, you won't  have to pursue me. But if you do want to continue on, and you decide to leave your contact information,I will look for you, I will find you, and I will work with you. 
 			</p>
 			<div class="resume-file">
-				<a href="#"><i class="fa fa-file-text"></i></a>
+				<a href="SMasonResume.pdf" target="_blank"><i class="fa fa-file-text"></i></a>
 			</div>
 		</section>
 		 
@@ -95,7 +83,7 @@
 		<section class="contact">
 			<div>
 				<p id="contact-line"> <i class="fa fa-comments"></i>Want to talk?</p>
-				<p id="email-text"> If you like what you've seen so far send me an <a href="#">email.</a></p>
+				<p id="email-text"> If you like what you've seen so far send me an <a href="mailto:S-Mason@Knights.ucf.edu?Subject=Get in Touch" target="_top">email.</a></p>
 			</div>
 		</section> 
 		

@@ -6,9 +6,15 @@
 		font-size: .9em;
 		width: initial;
 		border-top: 1px solid #fff;
-		border-bottom: 1px solid #fff;
 		display: block;
 		padding: 0px;
+	}
+	
+	.nav li
+	{
+		line-height: 45px;
+		background-color: #272424;
+		width: 100%;
 	}
 	
 	.nav li:last-child
@@ -19,7 +25,7 @@
 	 .nav
 	 {
 		background-color: rgb(39, 36, 36);
-		border-bottom: 1px solid white;
+		border-bottom: 2px solid white;
 	 }
 	
 	.nav_list a
@@ -47,9 +53,9 @@
 		margin: 20px;
 	}
 	
-	.nav_list li:hover
+	.nav_list a:hover
 	{
-		width: initial;
+		border-bottom: none;
 	}
 	
 	.fa-bars
@@ -93,15 +99,13 @@
 	
 	.bio p
 	{
-		font-size: 1.1em;
-		-webkit-column-count: initial;
-		-moz-column-count: initial;
-		column-count: initial;
+		font-size: 1em;
+		width: 75%;
 	}
 	
 	.resources p 
 	{
-	  font-size: 1.1em;
+	  font-size: 1em;
 	  /* margin: 0px 30px; */
 	  width: 80%;
 	}
@@ -109,6 +113,7 @@
 	.resources .fa-file-text
 	{	
 		font-size: 8em;
+		margin-bottom: 10px;
 	}
 	
 	.col
@@ -122,15 +127,35 @@
 	{
 		width: 50%;
 		border: 4px solid white;
-		margin: 0px 20px;
+		margin:0px 20px 15px 20px;
 	}
-	
+
+	#lightbox img 
+	{
+		margin: 200px auto 0px auto;
+		width: 80%;
+		height:auto;
+	}
+
+	#lightbox .fa-chevron-right 
+	{
+		margin-right: 10px;
+	}
+
+	#lightbox .fa-chevron-left 
+	{
+		margin-left: 10px;
+	}
+
+	#lightbox .fa 
+	{
+		margin-top: 50%;
+	}
 	.contact .fa-comments 
 	{
 		font-size: 2em;
 		margin: 0px 10px;
 	}
-	
 	
 	.contact #contact-line 
 	{
